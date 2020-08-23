@@ -26,4 +26,4 @@ jobs:
       run: go get github.com/denisbrodbeck/machineid
 
     - name: Build
-      run: go build -v .
+      run: cd machineid && go build -v .
